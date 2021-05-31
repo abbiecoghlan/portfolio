@@ -8,11 +8,88 @@
     src: url('fonts/ApercuProBold.otf');
  }
 
+ @font-face {
+    font-family: 'roboto';
+    src: url('fonts/RobotoCondensed-Regular.ttf');
+ }
+
+ :root {
+     --firstcolor: #FFFEF8;
+     --secondcolor: #D944B9;
+     --thirdcolor: #015288;
+     --forthcolor: #E9C165;
+ }
+
+ * {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+     font-family: 'ApercuRegular', sans-serif;
+ }
+
+ .nav-container {
+     width: 100%;
+     background-color: var(--secondcolor);
+     color: var(--firstcolor);
+ }
+
+ .navbar {
+     display: grid;
+     grid-template-columns: 0.2fr auto 1fr;
+     align-items: center;
+     height: 80px;
+     width: 90%;
+     max-width: 1720px;
+     margin: 0 auto;
+     cursor: pointer;
+ }
+
+
+ #navbar-logo {
+    font-size: 72px;
+    color: var(--firstcolor);
+    justify-self: start;
+    margin-left: 20px;    
+ }
+
+ .nav-menu {
+     display: grid;
+     grid-template-columns: repeat(5, auto);
+     list-style: none;
+     text-align: center;
+     width: 70%;
+     justify-self: end;
+ }
+
+ .nav-links {
+     color: var(--firstcolor);
+     text-decoration: none;
+ }
+
+ .nav-links:hover {
+    color: var(--thirdcolor);
+    transition: all 0.2s ease-out;
+
+ }
+
+ .nav-links-btn {
+     background-color: var(--thirdcolor);
+     color: var(--forthcolor);
+ }
+
+ h1 {
+    font-family: 'ApercuBold', sans-serif;
+ }
 
  body {
-    color: #7C0998;
+    /* color: #7C0998; */
+    color: #D944B9;
     background-color: #FFFEF8;
     font-family: 'ApercuRegular';
-    margin: 0px;
+
 
 }
+
+/* p {
+    font-family: 'roboto';
+} */
