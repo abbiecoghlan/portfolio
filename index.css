@@ -8,12 +8,63 @@
     src: url('fonts/ApercuProBold.otf');
  }
 
+.nav-bar {
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.nav-bar > a {
+    font-size: 24px;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header > button {
+    font-family: 'ApercuRegular';
+    font-size: 20px;
+
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header {
+    background-color: #3d6d79;
+    position: sticky;
+    top: 0;
+    /* height: 5rem; */
+}
+
+
 h1 {
     font-family: 'ApercuBold';
     font-size: 48px;
 }
 
 body {
-    background-color: #ECF3F8;
+    background-color: #FFFEF8;
+    color: #3d6d79;
     font-family: 'ApercuRegular';
+    margin: 0px;
+
 }
+
+#content {
+    color:  #3d6d79;
+    background-color: #FFFEF8
+} 
+
+#footer {
+    background-color:  #3d6d79;
+    color: #FFFEF8;
+    position: absolute;
+    height: 2.5rem;
+    width: 100%;
+} 
