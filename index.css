@@ -1,3 +1,19 @@
+@font-face {
+    font-family: 'ApercuRegular';
+    src: url('fonts/ApercuRegular.otf');
+ }
+
+ @font-face {
+    font-family: 'ApercuBold';
+    src: url('fonts/ApercuProBold.otf');
+ }
+
+h1 {
+    font-family: 'ApercuBold';
+    font-size: 48px;
+}
+
 body {
     background-color: #ECF3F8;
+    font-family: 'ApercuRegular';
 }
