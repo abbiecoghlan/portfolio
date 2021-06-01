@@ -104,14 +104,17 @@
     .nav-menu {
         display: grid;
         grid-template-columns: auto;
-        background: var(--forthcolor);
+        background-color: var(--forthcolor);
         margin: 0;
         width: 100%;
         position: absolute;
         top: 80px;
-        left: -100%;
-        opacity: 0;
+        /* left: -100%;
+        opacity: 0; */
         transition: all 0.5s ease;
+
+       
+
     }
 
     #navbar-logo {
@@ -143,8 +146,13 @@
     }
 
     .nav-links-btn {
-        
-    }
+        border: none;
+        padding: 0;
+        border-radius: 0;
+        background-color: darkgray;
+        color: pink;
+        transition: all 0.4s ease-out;
+    } 
 
  }
 
