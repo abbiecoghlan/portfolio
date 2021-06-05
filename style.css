@@ -35,10 +35,7 @@
      margin: 0 auto;
  }
 
- #body {
-     padding: 20px;
-     padding-bottom: 10px;
- }
+
 
  .body-container {
     margin: 20px;
@@ -237,13 +234,15 @@
     body { padding-top: 0px; }
 }
 
-.body-containter {
-    padding: 20px;
-}
 
-.body-statement { font-size: 28px; }
+
+.body-statement { font-size: 28px; padding-left: 20px;}
 @media screen and (max-width: 768px) {
-    .body-statement { font-size: 19px; }
+    .body-statement { font-size: 19px; padding-left: 5px; padding-bottom: 10px;} 
+
+    #body { padding-left: 0px; padding-bottom: 10px;}
+
+    .body-container { padding-left: 5px; margin: 0px;}
 }
 
 footer {
