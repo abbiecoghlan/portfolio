@@ -38,7 +38,7 @@
 
 
  .body-container {
-    margin: 20px;
+    margin: 80px;
     padding-bottom: 10px;
 }
 
@@ -85,7 +85,18 @@
  .nav-links {
      color: var(--firstcolor);
      text-decoration: none;
+     align-items: center; 
  }
+
+ .nav-menu > li.links {
+    color: var(--secondcolor);
+    text-decoration: none;
+    align-items: center; 
+    padding-top: 10px;
+}
+
+
+
 
  .nav-links:hover {
     color: var(--thirdcolor);
@@ -96,7 +107,7 @@
  .nav-links-btn {
      background-color: var(--thirdcolor);
      color: var(--secondcolor);
-     padding: 6px 16px;
+     padding: 10px 16px;
      border-radius: 4px;
  }
 
