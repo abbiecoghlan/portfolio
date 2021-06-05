@@ -18,10 +18,10 @@
      --secondcolor: #D944B9;
      --thirdcolor: #015288;
      --forthcolor: #E9C165; */
-     --firstcolor: #FEC131;
-     --secondcolor: #7EA0FE;
-     --thirdcolor: #F9CFC6;
-     --forthcolor: #153663;
+     --firstcolor: #FFFEF8;
+     --secondcolor: #12544C;
+     --thirdcolor: #C9DA60;
+     --forthcolor: black;
  }
 
  * {
@@ -47,6 +47,11 @@
      max-width: 1720px;
      margin: 0 auto;
      cursor: pointer;
+     position: fixed;
+     z-index: 1;
+     width: 100%;
+     background: var(--forthcolor);
+
  }
 
 
@@ -78,16 +83,16 @@
  }
 
  .nav-links-btn {
-     background-color: var(--firstcolor);
-     color: var(--forthcolor);
+     background-color: var(--thirdcolor);
+     color: var(--secondcolor);
      padding: 6px 16px;
      border-radius: 4px;
  }
 
  .nav-links-btn:hover {
-    background-color: var(--thirdcolor);
+    color: var(--thirdcolor);
     transition: all 0.2s ease-out;
-    color: var(--secondcolor);
+    background-color: var(--secondcolor);
     padding: 5px 15px;
     border-radius: 4;
     border: solid 1px var(--thirdcolor);
@@ -210,8 +215,14 @@
     color: var(--forthcolor);
     background-color: #FFFEF8;
     font-family: 'ApercuRegular';
+    
 
 
+}
+
+#body { padding-top: 160px; }
+@media screen and (max-width: 768px) {
+    body { padding-top: 0px; }
 }
 
 /* p {

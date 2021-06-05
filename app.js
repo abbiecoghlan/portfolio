@@ -5,3 +5,6 @@ menu.addEventListener("click", () => {
     menu.classList.toggle('is-active')
     links.classList.toggle('active')
 })
+
+
+window.addEventListener("hashchange", function() { scrollBy(0, -80) })
