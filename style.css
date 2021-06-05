@@ -31,6 +31,21 @@
      font-family: 'ApercuRegular', sans-serif;
  }
 
+ .header {
+     margin: 0 auto;
+ }
+
+ #body {
+     padding: 20px;
+     padding-bottom: 10px;
+ }
+
+ .body-container {
+    margin: 20px;
+    padding-bottom: 10px;
+}
+
+
  .nav-container {
      width: 100%;
      background-color: var(--forthcolor);
@@ -50,8 +65,7 @@
      position: fixed;
      z-index: 1;
      width: 100%;
-     background: var(--forthcolor);
-
+     background: var(--forthcolor);    
  }
 
 
@@ -214,10 +228,7 @@
     /* color: #7C0998; */
     color: var(--forthcolor);
     background-color: #FFFEF8;
-    font-family: 'ApercuRegular';
-    
-
-
+    font-family: 'ApercuRegular';    
 }
 
 #body { padding-top: 160px; }
@@ -225,6 +236,7 @@
     body { padding-top: 0px; }
 }
 
-/* p {
-    font-family: 'roboto';
-} */
+.body-containter {
+    padding: 20px;
+}
+
