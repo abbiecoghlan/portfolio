@@ -70,7 +70,7 @@
 
 
  #navbar-logo {
-    font-size: 72px;
+    font-size: 48px;
     color: var(--firstcolor);
     justify-self: start;
     margin-left: 20px;    
@@ -144,6 +144,7 @@
 
     #navbar-logo {
         margin-left: 20px;
+        font-size: 48px;
     }
 
     .nav-menu.active {
@@ -240,3 +241,22 @@
     padding: 20px;
 }
 
+.body-statement { font-size: 28px; }
+@media screen and (max-width: 768px) {
+    .body-statement { font-size: 19px; }
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 0.2fr auto 1fr;
+    align-items: center;
+    height: 160px;
+    width: 90%;
+    max-width: 1720px;
+    margin: 0 auto;
+    cursor: pointer;
+    width: 100%;
+    background: var(--thirdcolor); 
+    color: var(--forthcolor)
+
+}
