@@ -145,8 +145,6 @@
         opacity: 0;
         transition: all 0.5s ease;
 
-       
-
     }
 
     #navbar-logo {
@@ -161,6 +159,10 @@
         opacity: 1;
         transition: all 0.5s ease;
     }
+
+    img {
+        vertical-align: middle;
+    }    
 
     .nav-links {
         text-align: center;
