@@ -50,7 +50,6 @@
  }
 
  .navbar {
-     
      display: grid;
      grid-template-columns: 0.2fr auto 1fr;
      align-items: center;
@@ -75,7 +74,7 @@
 
  .nav-menu {
      display: grid;
-     /* grid-template-columns: repeat(6, auto); */
+
      grid-template-columns: auto auto auto auto auto auto auto;
      list-style: none;
      text-align: center;
@@ -259,7 +258,7 @@
 
 footer {
     display: grid;
-    grid-template-columns: 0.2fr auto 1fr;
+    /* grid-template-columns: 0.2fr auto 1fr; */
     align-items: center;
     height: 160px;
     width: 90%;
@@ -269,5 +268,8 @@ footer {
     width: 100%;
     background: var(--thirdcolor); 
     color: var(--forthcolor)
+}
 
+.footer-container {
+    justify-self: center;
 }
