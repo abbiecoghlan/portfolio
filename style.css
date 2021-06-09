@@ -36,29 +36,56 @@
  }
 
 
-
  .body-container {
     margin: 20px;
     padding-bottom: 10px;
     display: grid;
-    align-items: center;
-    grid-template-columns: 40% 40% 20%;
-    display: flex;
-    
+    grid-template-columns: 33% 33% 33%;    
+}
+.about {
+    text-align: center;
 }
 
-@media screen and (max-width: 768px) {
+.skills {
+    margin-left: 30%;
+}
+
+@media screen and (max-width: 920px) {
     .body-container {
         /* position: relative; */
         margin: 5px;
-        grid-template-columns: 100%
-        
+        grid-template-columns: 100%;
+ 
+    }
+    .body-column {
+        justify-self: center;
+        padding-top: 10px;
+    }
+
+    .skills {
+        margin-left: 0px;
     }
 }
 
-/* .profile-pic {
+.profile-pic {
+    border-radius: 50%;
 
-} */
+}
+
+@media screen and (max-width: 768px) {
+    /* .project-container {
+        position: absolute;
+    } */
+    .project-video {
+        position: relative;
+        width: 100%;
+        height: auto;
+        padding: 5px;
+        padding-top: 20px;
+    }
+
+    
+}
 
 
 
