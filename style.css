@@ -114,7 +114,7 @@
     color: var(--thirdcolor);
     transition: all 0.2s ease-out;
     background-color: var(--secondcolor);
-    padding: 5px 15px;
+    padding: 10px 16px;
     border-radius: 4;
     border: solid 1px var(--thirdcolor);
     transition: all 0.3s ease-out;
