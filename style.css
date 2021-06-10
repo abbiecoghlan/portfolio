@@ -100,7 +100,7 @@
 .video-container {
     grid-template-columns: auto auto;
     display: grid;
-    padding: 10px
+    padding-bottom: 100px
 
 }
 
