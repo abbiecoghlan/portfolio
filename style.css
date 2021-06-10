@@ -40,7 +40,7 @@
     margin: 40px;
     padding-bottom: 10px;
     display: grid;
-    grid-template-columns: 33% 33% 33%;    
+    grid-template-columns: 38% 35% 24%;    
 }
 .about {
     text-align: center;
@@ -48,8 +48,12 @@
 
 .skills {
     margin-left: 30%;
+    /* text-align: center; */
 }
-
+/* 
+.skills > .list {
+    text-align: left;
+} */
 .project-container { 
     padding-left: 5px; 
     margin: 0px; 
@@ -58,9 +62,9 @@
 
 
 @media screen and (max-width: 920px) {
-    /* .about > h2 {
-        display: none;
-    } */
+    .about > h2 {
+        text-align: left;
+    }
     .body-container > .skills {
         margin-left: 5px;
         justify-self: left;
@@ -386,4 +390,33 @@ footer {
 
 .footer-icons {
     margin: 5px;
+}
+
+.about > .list {
+    text-align: left;
+    list-style: none;
+}
+
+.email-btn {
+    background-color: var(--secondcolor);
+    color: var(--thirdcolor);
+    padding: 10px 16px;
+    border-radius: 4px;
+    border: solid 1px var(--thirdcolor);
+    font-size: 18px;
+    }
+   
+.email-btn:hover {
+    color: var(--secondcolor);
+    transition: all 0.2s ease-out;
+    background-color: var(--thirdcolor);
+    padding: 10px 16px;
+    border-radius: 4;
+    border: solid 1px var(--secondcolor);
+    transition: all 0.3s ease-out;
+}
+
+.skills {
+    display: grid;
+    grid-template-rows: 75%, 25%;
 }
