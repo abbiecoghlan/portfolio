@@ -58,9 +58,9 @@
 
 
 @media screen and (max-width: 920px) {
-    .about > h1 {
+    /* .about > h2 {
         display: none;
-    }
+    } */
     .body-container > .skills {
         margin-left: 5px;
         justify-self: left;
