@@ -137,15 +137,8 @@ iframe {
         width: 100%;
         height: 100%;
 
-        }
-    
+        }   
 }
-
-
-
-
-
-
 
 
 
@@ -198,8 +191,6 @@ iframe {
     align-items: center; 
     padding-top: 10px;
 }
-
-
 
 
  .nav-links:hover {
@@ -340,7 +331,6 @@ iframe {
  }
 
  body {
-    /* color: #7C0998; */
     color: var(--forthcolor);
     background-color: #FFFEF8;
     font-family: 'ApercuRegular';    
