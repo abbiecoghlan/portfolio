@@ -340,6 +340,10 @@ iframe {
     padding-top: 160px; 
 }
 
+h2 {
+    font-size: 32px;
+}
+
 @media screen and (max-width: 768px) {
     body { 
         padding-top: 0px; 
