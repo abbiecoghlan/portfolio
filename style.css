@@ -336,12 +336,15 @@ iframe {
     font-family: 'ApercuRegular';    
 }
 
-#body { padding-top: 160px; }
-@media screen and (max-width: 768px) {
-    body { padding-top: 0px; }
+#body { 
+    padding-top: 160px; 
 }
 
-
+@media screen and (max-width: 768px) {
+    body { 
+        padding-top: 0px; 
+    }
+}
 
 .body-statement { 
     font-size: 28px; padding-left: 20px;
@@ -359,10 +362,8 @@ iframe {
 }
 
 
-
 footer {
     display: grid;
-    /* grid-template-columns: 0.2fr auto 1fr; */
     align-items: center;
     height: 160px;
     width: 90%;
