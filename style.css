@@ -383,7 +383,7 @@ footer {
     align-items: center;
     height: 160px;
     width: 90%;
-    /* max-width: 1720px; */
+    max-width: 1720px;
     margin: 0 auto;
     cursor: pointer;
     width: 100%;
