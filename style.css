@@ -40,7 +40,7 @@
     margin: 40px;
     padding-bottom: 10px;
     display: grid;
-    grid-template-columns: 38% 35% 24%;    
+    grid-template-columns: 35% 34% 26%;    
 }
 .about {
     text-align: center;
@@ -64,14 +64,18 @@
 }
 
 @media screen and (max-width: 920px) {
-    .about > h2 {
+    h2 {
         text-align: left;
+        margin-top: 25px;
     }
     .body-container > .skills {
         margin-left: 5px;
         justify-self: left;
-
     }
+    .list > .item {
+        padding-left: 5px;
+    }
+    
 }
 .profile-pic {
     border-radius: 50%;
@@ -405,7 +409,7 @@ footer {
     color: var(--thirdcolor);
     padding: 10px 16px;
     border-radius: 4px;
-    border: solid 1px var(--thirdcolor);
+    border: solid 1px var(--secondcolor);
     font-size: 18px;
     }
    
@@ -433,4 +437,5 @@ footer {
 
 .get-in-touch {
     text-align: center;
+    color: var(--secondcolor)
 }
